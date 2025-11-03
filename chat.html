@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="welcome-page">
+        <h2>Welcome,<span id="user-email"></span>!</h2>
+        <button id="logout-Btn">Logout</button>
+     <div class="chat-header">
+          <input type="text" id="searchBar" placeholder="🔍 Search messages...">
+    </div>
+        <div id="messages" class="message-box"></div>
+        <span id="username"></span>
+    <div class="input-area">
+        <input type="text"  id="message" placeholder="Type any message...">
+        <button onclick="sendMessage()">Send</button>
+     </div>
+</div>
+    <div class="theme-toggle" onclick="toggleTheme()">🌞 / 🌙</div>
+
+
+ <script src="script.js" type="module"></script>
+</body>
+</html>
